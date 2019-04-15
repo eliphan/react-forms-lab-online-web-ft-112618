@@ -15,6 +15,11 @@ class LoginForm extends React.Component {
     [event.target.name]: event.target.value
   })
   }
+  
+  handleSubmit = event => {
+  event.preventDefault()
+  this.sendFormDataSomewhere(this.state)
+  }
 
   render() {
     return (
