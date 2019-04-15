@@ -25,7 +25,7 @@ class TwitterMessage extends React.Component {
                  value={this.state.value}
                  onChange={this.handleChange}/>
         </form>
-        {this.props.maxChars-this.state.message.length}
+        {this.props.maxChars-this.state.value.length}
       </div>
     );
   }
