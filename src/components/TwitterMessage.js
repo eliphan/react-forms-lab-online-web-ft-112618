@@ -1,15 +1,12 @@
 import React from "react";
 
 class TwitterMessage extends React.Component {
-  state = {
-    value: '',
-  }
-  
+ 
   constructor() {
     super();
 
     this.state = {
-      
+      value: ''
     };
   }
   
