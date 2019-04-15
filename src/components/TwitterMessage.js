@@ -32,9 +32,3 @@ class TwitterMessage extends React.Component {
 }
 
 export default TwitterMessage;
-
-
-class ControlledInput extends React.Component {
-  state = {
-    value: '',
-  }
